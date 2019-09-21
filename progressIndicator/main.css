@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+	width: 100%;
+	top: 0;
+	z-index: 1;
+	position: fixed;
+	background: #f5f5f5;
+	padding: 20px 0 0;
+	text-align: center;
+}
+
+.header > h1 {
+	color: #656565;
+	margin-bottom: 20px;
+}
+
+.progress-container {
+	width: inherit;
+	height: 3px;
+	background: #fbfbfb;
+}
+
+.progress-bar {
+    height: 3px;
+    border-radius: 50px;
+    background: #656565;
+	width: 0%;
+}
+
+.content {
+    width: 60%;
+    margin: 120px auto;
+    line-height: 2.5;
+    font-size: 18px;
+}
+
+.content > p {
+    color: #808080
+}
+
+.Comment {
+    background: #f7f7f7;
+    width: 100%;
+}
+
+.Comment > form {
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.Comment > form > input {
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+    padding: 10px 20px 10px 0;
+}
+
+
+.Comment > form > button {
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background: #795548;
+    border-radius: 3px;
+}
